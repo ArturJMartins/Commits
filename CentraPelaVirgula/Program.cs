@@ -22,10 +22,10 @@ namespace CentraPelaVirgula
                 Console.WriteLine("Os 4 números reais alinhados à direita com 2"
                 + " casas decimais:");
 
-                Console.WriteLine($"{numeros,6:f2}");
-                Console.WriteLine($"{numeros2,6:f2}");
-                Console.WriteLine($"{numeros3,6:f2}");
-                Console.WriteLine($"{numeros4,6:f2}");
+                Console.WriteLine($"{numeros,8:f2}");
+                Console.WriteLine($"{numeros2,8:f2}");
+                Console.WriteLine($"{numeros3,8:f2}");
+                Console.WriteLine($"{numeros4,8:f2}");
 
 
             
