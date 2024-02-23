@@ -26,6 +26,10 @@ namespace VariousTypes
             char estrela = '\u2605';
             char vHandPose = '\u270C';
             char copyrightSymbol = '\u00A9';
+
+            //variaveis booleanas
+            bool verdadeiro = true;
+            bool falso = false;
             
             Console.WriteLine("Hello, World!");
             Console.WriteLine(a);
@@ -42,6 +46,9 @@ namespace VariousTypes
             Console.WriteLine(estrela);
             Console.WriteLine(vHandPose);
             Console.WriteLine(copyrightSymbol);
+
+            Console.WriteLine(verdadeiro);
+            Console.WriteLine(falso);
         }
     }
 }
