@@ -9,6 +9,7 @@ namespace VariousTypes
         {
             Console.OutputEncoding = Encoding.UTF8;
 
+            // variaveis inteiras
             short a = 1;
             int b = 2;
             long c = 3L;
@@ -16,11 +17,16 @@ namespace VariousTypes
             uint e = 5U;
             ulong f = 6UL;
 
-            char estrelaNegra = '\u2605';
+            // variaveis reais
+            double g = 7.543;
+            float h = 8.432f;
+            decimal i = 9.234m;
+
+            //variaveis com valor unicode
+            char estrela = '\u2605';
             char vHandPose = '\u270C';
             char copyrightSymbol = '\u00A9';
             
-
             Console.WriteLine("Hello, World!");
             Console.WriteLine(a);
             Console.WriteLine(b);
@@ -29,7 +35,11 @@ namespace VariousTypes
             Console.WriteLine(e);
             Console.WriteLine(f);
 
-            Console.WriteLine(estrelaNegra);
+            Console.WriteLine(g);
+            Console.WriteLine(h);
+            Console.WriteLine(i);
+
+            Console.WriteLine(estrela);
             Console.WriteLine(vHandPose);
             Console.WriteLine(copyrightSymbol);
         }
